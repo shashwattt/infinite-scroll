@@ -9,7 +9,7 @@ import { getMessageAge } from "../../utils/helper";
 
 const MessageCard = ({ message = {} }) => {
 	return (
-		<Card style={{ marginBottom: "8px" }}>
+<Card style={{ marginBottom: "16px" }}>
 			<CardHeader
 				avatar={<Avatar alt={message.author.name} src={BASE_URL + message.author.photoUrl} />}
 				title={message.author.name}
