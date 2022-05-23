@@ -10,7 +10,6 @@ import { createMuiTheme } from "@material-ui/core/styles";
 import { useSelector } from 'react-redux';
 
 import Home from "./containers/Home/Home";
-import Setting from "./containers/Setting/Setting";
 
 import MainLayout from "./layouts/MainLayout";
 import EmptyLayout from "./layouts/EmptyLayout";
